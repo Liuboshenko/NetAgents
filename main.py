@@ -1,4 +1,4 @@
-# main.py with CORS support
+# main.py with CORS support покажи статус интерфейсов на хосте 10.27.214.28
 import logging
 import argparse
 from flask import Flask, request, Response, jsonify
