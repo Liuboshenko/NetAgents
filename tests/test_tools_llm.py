@@ -89,7 +89,7 @@ def send_request(payload):
     
     if response.status_code == 200:
         response_json = response.json()
-        print("Сырой ответ от модели (JSON):")
+        print("[RAW_RESPONSE] Сырой ответ от модели (JSON):")
         print(json.dumps(response_json, indent=4, ensure_ascii=False))
         print("\n")
         return response_json
